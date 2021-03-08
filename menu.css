@@ -1,0 +1,56 @@
+#total{
+  background: url('Back-Audi-Backgrounds.jpg');
+}
+#note{
+  border: 5px solid #d74d15;
+  padding: 6px 12px;
+  margin: 6px auto 6px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  width: 600px;
+  background: #137EE2;
+}
+div {
+  font: bold 20px "Times New Roman", Times, serif;
+  padding: 10px auto;
+  display: block;
+}
+.row ul{
+  font-size: 18px;
+}
+#bien{
+ font-size: 50px;
+ color: #F70707;
+}
+.titre{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.row{
+  margin-top: 40px;
+}
+
+
+.menu{
+  background: #137EE2;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+.menu li{
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #d74d15;
+  padding:  0 1em;
+}
+.menu li a{
+  text-decoration: none;
+  color: #080303;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu li:hover{
+  background: #DA0906;
+}

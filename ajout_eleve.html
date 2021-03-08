@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ajoute_eleve</title>
+    <link rel="stylesheet" href="decoration.css" type="text/css">
+    <link rel="icon" href="student.svg">
+  </head>
+<div class="note">
+  <span>Ajout Eleve</span>
+</div>
+<div class="total">
+<form method="post" action="ajouter_eleve.php" id="student">
+ <div class="row">
+   <span> Nom: </span> <input type="text" name="nom" placeholder="Nom" required="required"/> </br>
+ </div>
+ <div class="row">
+   <span> Prenom: </span> <input type="text" name="prenom" placeholder="Prenom" required="required" /> </br>
+ </div>
+ <div class="row">
+ <span class="date">Date de naissance:</span>
+ <input type="text" class="input_date" name="date_naissance" placeholder="Format : AAAA-MM-JJ" required="required"/>
+ </div>
+ <div class="row">
+    <input type="submit" value="Ajouter">
+ </div>
+ </form>
+</div>
+</html>
